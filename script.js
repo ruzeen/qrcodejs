@@ -23,3 +23,17 @@ urlText.addEventListener("keydown", function (e) {
         makeCode();
     }
 });
+
+const downloadBtn = document.getElementById('download-btn');
+
+// Save QR code
+downloadBtn.addEventListener('click', () => {
+    const img = document.querySelector('#qrcode img');
+    const a = document.createElement('a');
+    a.href = img.src; 
+    a.download = 'qrcode.png';
+
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+});
