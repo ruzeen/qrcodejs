@@ -37,4 +37,4 @@ qrcode.makeCode("http://naver.com"); // make another code.
 IE6~10, Chrome, Firefox, Safari, Opera, Mobile Safari, Android, Windows Mobile, ETC.
 
 ## License
-MIT License
+MIT License (original author: https://github.com/davidshimjs)
