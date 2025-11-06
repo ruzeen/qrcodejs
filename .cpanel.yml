@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ruzeen/public_html/public_html/app/qr-code/
+    - /bin/rsync -av --exclude='.git' --exclude='.cpanel.yml' ./ $DEPLOYPATH
