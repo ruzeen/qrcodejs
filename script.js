@@ -38,5 +38,3 @@ downloadBtn.addEventListener("click", () => {
   a.click();
   document.body.removeChild(a);
 });
-
-// test
